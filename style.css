@@ -48,6 +48,9 @@ h1 {
 	translate: -50% 0;
 	transition: 0.15s;
 }
+h1::after {
+	content: '*';
+}
 h1:hover::before {
 	content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
 	white-space: pre;
